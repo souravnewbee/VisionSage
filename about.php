@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- 🔝 Navigation Bar -->
+  <!-- 🔝 Navigation -->
   <header>
     <div class="logo">VisionSage</div>
     <nav>
@@ -25,25 +25,31 @@
     </nav>
   </header>
 
-  <!-- 📄 About Section -->
+  <!-- 🧠 About Section -->
   <section class="about-section">
     <div class="about-container">
-      <h1>About VisionSage</h1> <br> 
-      <p>
-        <strong>VisionSage</strong> is an advanced AI-powered software solution designed to analyze and interpret images to detect potential crime scenes. Using deep learning and computer vision, VisionSage can identify suspicious activities, dangerous objects, or unlawful scenarios simply by analyzing an uploaded photo.
-      </p>
-      <p>
-        The system processes visual data in real time and generates intelligent predictions and descriptions, helping authorities or organizations take prompt action. Whether used for law enforcement, surveillance monitoring, or public safety, VisionSage offers a powerful tool to enhance situational awareness and reduce response time.
-      </p>
-      <p>
-        By automating image analysis, VisionSage not only improves accuracy and consistency but also reduces the need for manual monitoring. It’s a smart assistant for safety-focused industries aiming to prevent incidents before they escalate — making communities smarter and safer through technology.
-      </p> <br> <br>
-    </div>
+      <h1>About VisionSage</h1>
+      <br><p><strong>VisionSage</strong> is a cutting-edge AI-driven image analysis platform designed to enhance visual intelligence and safety. By leveraging deep learning and the SmolVM AI model, it can detect, classify, and analyze critical aspects of any uploaded image—making it an essential tool for surveillance, forensics, and crime prevention.</p>
+
+     <br><br>
+      <h2>🔑 Key Features</h2>
+
+      <ul class="feature-list">
+        <li><strong>Auto-Tagging System:</strong> Automatically assigns keywords like “knife,” “car,” “night,” or “multiple people” to improve image indexing and searchability.</li>
+        <li><strong>Face Count & Blurring:</strong> Detects the number of faces and optionally blurs them for privacy-sensitive applications.</li>
+        <li><strong>Color Dominance Detector:</strong> Highlights the most dominant colors to help identify clothing or environment (e.g., “mostly red and black”).</li>
+        <li><strong>Similar Image Finder:</strong> Automatically suggests similar past uploads to identify patterns or repeat visuals.</li>
+        <li><strong>Timestamp and EXIF Viewer:</strong> Extracts metadata to show when and where the photo was taken.</li>
+        <li><strong>Suspicious Object Filter:</strong> Filters and flags images containing high-risk elements like weapons, blood, fire, or masked individuals.</li>
+      </ul>
+
+      <p>VisionSage isn’t just a recognition tool—it’s a powerful AI assistant for analysts, investigators, and safety professionals aiming to make smarter, faster decisions.</p>
+    </div><br><br>
   </section>
 
   <!-- 📄 Footer -->
   <footer>
-    <p>© 2025 VisionSage. All rights reserved.</p>
+    <p>© 2025 VisionSage. <br>All rights reserved.</p>
   </footer>
 
 </body>

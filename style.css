@@ -268,3 +268,52 @@ footer {
 .auth-form button:hover {
   background-color: #2c6e49;
 }
+
+.about-section {
+  padding: 80px 20px;
+  background-color: #fffaf3;
+  color: #2c6e49;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.about-container h1 {
+  font-size: 34px;
+  color: #4c956c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 28px;
+  margin: 30px 0 15px;
+  color: #d68c45;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  margin-bottom: 14px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.feature-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #4c956c;
+  font-weight: bold;
+}
